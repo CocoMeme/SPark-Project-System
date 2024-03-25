@@ -64,18 +64,14 @@ use App\Http\Controllers\NotificationController;
         // APPROVE
         
             Route::put('/approve-rent/{slot}', [AdminController::class, 'approveRent'])->name('approve-rent');
-
-        // DENY
-
-            Route::put('/deny-slot-request/{id}', [SlotsController::class, 'denySlotRequest'])->name('denySlotRequest');
-
+  // DENY
 
 
     // USERMANAGEMENT
 
         Route::put('/user-management/{user}', [AdminController::class, 'updateUser'])->name('admin.update-user');
         Route::delete('/user-management/{user}', [AdminController::class, 'deleteUser'])->name('admin.delete-user');
-        
+
         Route::middleware(['auth:admin'])->group(function () {
             Route::get('/user-management', [AdminController::class, 'showUserManagement'])->name('admin.user-management');
         });
@@ -95,7 +91,7 @@ use App\Http\Controllers\NotificationController;
 
     // CREATE SLOT
 
-        Route::post('/createSlot', [SlotsController::class, 'createSlot'])->name('create-slot');  
+        Route::post('/createSlot', [SlotsController::class, 'createSlot'])->name('create-slot');
 
     // PAYMENT MANAGEMENT
 

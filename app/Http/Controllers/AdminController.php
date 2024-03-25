@@ -400,7 +400,7 @@ class AdminController extends Controller
 
         ];
 
-        // return view('pdf.summary', $data); // VIEW
+        //return view('pdf.summary', $data); // VIEW
         $pdf = PDF::loadView('pdf.summary', $data);
         return $pdf->download('summary-report-' . $reportMonth . '.pdf');
     }

@@ -1,320 +1,329 @@
 /* LOGIN PAGE */
 
-    .login-page {
-        margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 70vh;
-    }
+.login-page {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
 
-    .form-login-page {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 5px 10px rgb(74, 83, 118);
-        background-color: #fff;
-        text-align: center;
-        width: 500px;
-    }
+.form-login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(74, 83, 118);
+    background-color: #fff;
+    text-align: center;
+    width: 500px;
+}
 
-    .form-login-page p{
-        font-size: 14px;
-    }
+.form-login-page p {
+    font-size: 14px;
+}
 
-    .form-login-page a{
-        font-weight: 1000;
-        color: rgb(232, 113, 33);
-    }
+.form-login-page a {
+    font-weight: 1000;
+    color: rgb(232, 113, 33);
+}
 
-    .login-page h2{
-        font-size: 20px;
-        width: 100%;
-        height: 50px;
-        border-radius: 5px;
-        color: #fff;
-        margin: 0; /* Reset margin */
-        margin-bottom: 20px;
-        display: flex; /* Use Flexbox */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        background-color: rgb(74, 83, 118);
-    }
+.login-page h2 {
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0;
+    /* Reset margin */
+    margin-bottom: 20px;
+    display: flex;
+    /* Use Flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    background-color: rgb(74, 83, 118);
+}
 
-    .form-login-page input{
-        width: 300px;
-        padding: 10px 15px;
-        font-size: 17px;
-        margin: 8px 0;
-        background: #eee;
-        border-radius: 3px;
-        border-top: 2px solid rgb(232, 113, 33);
-        border-left: 2px solid rgb(232, 113, 33);
-        border-right: 1px solid rgb(232, 113, 33);
-        border-bottom: 1px solid rgb(232, 113, 33);
-    }
+.form-login-page input {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 3px;
+    border-top: 2px solid rgb(232, 113, 33);
+    border-left: 2px solid rgb(232, 113, 33);
+    border-right: 1px solid rgb(232, 113, 33);
+    border-bottom: 1px solid rgb(232, 113, 33);
+}
 
-    .form-login-page button{
-        display: inline-block;
-        width: 300px;
-        margin: 5%;
-        padding: 3% 0;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 500;
-        text-transform: capitalize;
-        background: rgb(232, 113, 33);
-        border-radius: 5px;
-        cursor: pointer;
-        border: none;
-        transition: all 1s ease;
-    }
+.form-login-page button {
+    display: inline-block;
+    width: 300px;
+    margin: 5%;
+    padding: 3% 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: rgb(232, 113, 33);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 1s ease;
+}
 
 /* REGISTER PAGE */
 
-    .register-page {
-        margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 70vh;
-    }
+.register-page {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
 
-    .form-register-page {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 5px 10px rgb(74, 83, 118);
-        background-color: #fff;
-        text-align: center;
-        width: 500px;
-        position: relative;
-    }
+.form-register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(74, 83, 118);
+    background-color: #fff;
+    text-align: center;
+    width: 500px;
+    position: relative;
+}
 
-    .form-register-page p{
-        font-size: 14px;
-    }
+.form-register-page p {
+    font-size: 14px;
+}
 
-    .form-register-page a{
-        font-weight: 1000;
-        color: rgb(232, 113, 33);
-    }
+.form-register-page a {
+    font-weight: 1000;
+    color: rgb(232, 113, 33);
+}
 
-    .register-page h2{
-        font-size: 20px;
-        width: 100%;
-        height: 50px;
-        border-radius: 5px;
-        color: #fff;
-        margin: 0; /* Reset margin */
-        margin-bottom: 20px;
-        display: flex; /* Use Flexbox */
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
-        background-color: rgb(74, 83, 118);
-    }
+.register-page h2 {
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0;
+    /* Reset margin */
+    margin-bottom: 20px;
+    display: flex;
+    /* Use Flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    background-color: rgb(74, 83, 118);
+}
 
-    .form-register-page input{
-        width: 300px;
-        padding: 10px 15px;
-        font-size: 17px;
-        margin: 8px 0;
-        background: #eee;
-        border-radius: 3px;
-        border-top: 2px solid rgb(232, 113, 33);
-        border-left: 2px solid rgb(232, 113, 33);
-        border-right: 1px solid rgb(232, 113, 33);
-        border-bottom: 1px solid rgb(232, 113, 33);
-    }
+.form-register-page input {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    border-radius: 3px;
+    border-top: 2px solid rgb(232, 113, 33);
+    border-left: 2px solid rgb(232, 113, 33);
+    border-right: 1px solid rgb(232, 113, 33);
+    border-bottom: 1px solid rgb(232, 113, 33);
+}
 
-    .form-register-page button{
-        display: inline-block;
-        width: 300px;
-        margin: 5%;
-        padding: 3% 0;
-        color: #fff;
-        font-size: 15px;
-        font-weight: 500;
-        text-transform: capitalize;
-        background: rgb(232, 113, 33);
-        border-radius: 5px;
-        cursor: pointer;
-        border: none;
-        transition: all 1s ease;
-    }
+.form-register-page button {
+    display: inline-block;
+    width: 300px;
+    margin: 5%;
+    padding: 3% 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: rgb(232, 113, 33);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 1s ease;
+}
 
 
 
 /* LOGIN & REGISTER EFFECTS */
 
-    .form-register-page button:hover, .form-login-page  button:hover{
-        background-color:  rgb(74, 83, 118);
-        color: #fff;
-        transition: all .1s ease;
-    }
+.form-register-page button:hover,
+.form-login-page button:hover {
+    background-color: rgb(74, 83, 118);
+    color: #fff;
+    transition: all .1s ease;
+}
 
 
-    .form-register-page input:hover, .form-login-page input:hover{
-        background: #eee;
-        border-radius: 3px;
-        border-top: 2px solid rgb(74, 83, 118);
-        border-left: 2px solid rgb(74, 83, 118);
-        border-right: 1px solid rgb(74, 83, 118);
-        border-bottom: 1px solid rgb(74, 83, 118);
-    }
+.form-register-page input:hover,
+.form-login-page input:hover {
+    background: #eee;
+    border-radius: 3px;
+    border-top: 2px solid rgb(74, 83, 118);
+    border-left: 2px solid rgb(74, 83, 118);
+    border-right: 1px solid rgb(74, 83, 118);
+    border-bottom: 1px solid rgb(74, 83, 118);
+}
 
 
 /* RENT CSS FOR USER */
 
-    .section-rent{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 98vh;
-       background-color: #eee;
-    }
-
-    .rent{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        width: 350px;
-        min-height: 350px;
-        margin: 3%;
-        transition: all .4s;
-        border: 3px solid rgb(74, 83, 118);
-        background-color: #fff;
-        padding: 30px;
-        padding-top: 90px;
-        padding-bottom: 15px;
-        box-shadow: 0px 0px 0px 10px rgba(210, 198, 198, 0.08);
-    }
-
-    .rent p{
-        padding-bottom: 20px;
-    }
-    
-    .rent .note{
-        background-color: rgb(74, 83, 118);
-        color: #fff;
-        padding: 20px;
-        margin-bottom: 20px;
-    }
-
-    .rent label{
-        min-width: 50%;
-        padding: 20px;
-    }
-
-    .rent input{
-        width: 50%;
-        margin: auto 5px 0;
-
-    }
-
-    .rent h2{
-        width: 90%;
-        position: absolute;
-        top: 20px;
-        left: 13px;
-        background-color: rgb(232, 113, 33);
-        color: #fff;
-        padding: 3%;
-        text-align: center;
-        font-size: 20px;
-        margin: 4px 2px;
-        cursor: pointer;
-        transition: all 0.3s;
-    }
-
-    button[name="details"]{
-        width: 180px;
-        background-color: #fff;
-        border: 3px solid rgb(74, 83, 118);
-        color: rgb(74, 83, 118);
-        padding: 3%;
-        text-align: center;
-        font-size: 15px;
-        margin: 4px 2px;
-        margin-top: 15px;
-        cursor: pointer;
-        transition: all 0.3s;
-    }
-
-/* NEW /////////////////////////////////////////////// */
-
-    .userporfile {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .userporfile i {
-        color: #ffffff;
-        font-size: 24px;
-    }
-    /* User Profile CSS */
-
-    .content {
+.section-rent {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh; /* Adjusted height for your view */
-    background-color: #f7f7f7; /* Background color for the content area */
-    }
+    height: 90vh;
+    background-color: #eee;
+}
 
-    .user-profile-container {
-    width: 60%; /* Adjust width as needed */
-    max-width: 800px; /* Maximum width of the container */
+.rent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    min-height: 350px;
+    margin: 3%;
+    transition: all .4s;
+    border: 3px solid rgb(74, 83, 118);
+    background-color: #fff;
+    padding: 30px;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 0px 10px rgba(210, 198, 198, 0.08);
+}
+
+.rent p {
+    padding-bottom: 20px;
+}
+
+.rent label {
+    min-width: 50%;
+    padding: 20px;
+}
+
+.rent input {
+    width: 50%;
+    margin: auto 5px 0;
+
+}
+
+.rent h2 {
+    width: 90%;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    background-color: rgb(232, 113, 33);
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button[name="details"] {
+    width: 180px;
+    background-color: #fff;
+    border: 3px solid rgb(74, 83, 118);
+    color: rgb(74, 83, 118);
+    padding: 3%;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* NEW /////////////////////////////////////////////// */
+
+.userporfile {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+.userporfile i {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* User Profile CSS */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    /* Adjusted height for your view */
+    background-color: #f7f7f7;
+    /* Background color for the content area */
+}
+
+.user-profile-container {
+    width: 60%;
+    /* Adjust width as needed */
+    max-width: 800px;
+    /* Maximum width of the container */
     background: #fff;
     padding: 2em;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    margin-top: 20px; /* Space from the top */
-    }
+    margin-top: 20px;
+    /* Space from the top */
+}
 
-    .user-profile-container h1 {
+.user-profile-container h1 {
     text-align: center;
     color: #333;
     margin-bottom: 1em;
-    }
+}
 
-    .user-profile-container form {
+.user-profile-container form {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    }
+}
 
-    .user-profile-container label {
+.user-profile-container label {
     font-weight: bold;
     margin-bottom: 0.5em;
     color: #444;
-    }
+}
 
-    .user-profile-container input[type="text"],
-    .user-profile-container input[type="email"],
-    .user-profile-container input[type="password"],
-    .user-profile-container input[type="file"] {
+.user-profile-container input[type="text"],
+.user-profile-container input[type="email"],
+.user-profile-container input[type="password"],
+.user-profile-container input[type="file"] {
     padding: 0.8em;
     border: 1px solid #ccc;
     border-radius: 4px;
-    }
+}
 
-    .user-profile-container input[type="file"] {
+.user-profile-container input[type="file"] {
     padding: 0.5em;
-    }
+}
 
-    .user-profile-container button {
+.user-profile-container button {
     padding: 1em;
     background-color: rgb(232, 113, 33);
     color: white;
@@ -323,48 +332,384 @@
     cursor: pointer;
     font-size: 1em;
     font-weight: 500;
-    }
+}
 
-    .user-profile-container button:hover {
+.user-profile-container button:hover {
     background-color: rgb(74, 83, 118);
-    }
+}
 
-    /* Deactivate Account Button */
-    .user-profile-container form:last-child button {
+/* Deactivate Account Button */
+.user-profile-container form:last-child button {
     background-color: #ff6666;
     margin-top: 1em;
-    }
+}
 
-    .user-profile-container form:last-child button:hover {
+.user-profile-container form:last-child button:hover {
     background-color: #ff4d4d;
-    }
-    .alert-success {
+}
+
+.alert-success {
     text-align: center;
     color: green;
     font-size: 1.2em;
     margin-top: 1em;
-    }
+}
 
 
-    .current-profile-image {
+.current-profile-image {
     text-align: center;
     margin-bottom: 20px;
-    }
+}
 
-    .current-profile-image img {
-    width: 100px; /* Or your preferred size */
-    height: 100px; /* Maintain the aspect ratio */
+.current-profile-image img {
+    width: 100px;
+    /* Or your preferred size */
+    height: 100px;
+    /* Maintain the aspect ratio */
     border-radius: 50%;
-    object-fit: cover; /* This will prevent distortion of the image */
-    }
+    object-fit: cover;
+    /* This will prevent distortion of the image */
+}
 
-    /* Style updates for the profile update button */
-    .update-profile-button {
+/* Style updates for the profile update button */
+.update-profile-button {
     background-color: pink;
-    }
-    .update-profile-button:hover {
+}
+
+.update-profile-button:hover {
     background-color: #ff69b4;
     border-color: #ff69b4;
-    }
+}
+
+/*HOME*/
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.main-home {
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(rgba(228, 172, 135, 1.00), rgba(59, 90, 169, 0.75)), url('../layouts/SPark-pic.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Add this line to create a parallax effect */
+}
+
+.main-text {
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.main-text h5,
+.main-text h1 {
+    color: rgb(74, 83, 118);
+    font-size: 30;
+}
+
+.main-text p {
+    color: rgba(255, 155, 41, 0.891);
+    font-size: 30;
+}
+
+.main-text h1 {
+    color: rgba(255, 155, 41, 0.891);
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 150px;
+}
 
 
+.main-home_text {
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+    height: 50vh;
+    /* Adjust the height as needed */
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(rgb(71, 89, 140), rgb(207, 209, 216));
+    /* Additional properties */
+    background-size: cover;
+    background-position: center;
+}
+
+.main-home_text div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    height: 450px;
+    /* Set a specific height for each box */
+    transition: all .4s;
+    border: 3px solid rgb(74, 83, 118);
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(228, 172, 135, 1.00)), url('../layouts/SPark-pic.png');
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    /* Adjust the margin to create space between boxes */
+    padding: 20px;
+    box-shadow: 0px 0px 0px 10px rgba(210, 198, 198, 0.08);
+    border-radius: 20px;
+    /* Adjust the value for roundness */
+}
+
+
+.main-home_text div:hover {
+    transform: scale(1.1);
+    /* Adjust the scale factor for the hover effect */
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    /* Adjust the box shadow for the hover effect */
+}
+
+.main-home_map {
+    width: 100%;
+    height: 80%;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(#47598C 1px, transparent 1px), radial-gradient(#FFFFFF 1px, transparent 1px);
+    /* Two radial gradients to create dots */
+    background-size: 20px 20px;
+    /* Size of the dots */
+    background-position: 0 0, 10px 10px;
+    /* Position of the dots */
+}
+
+.main-home_map div {
+    width: 90%;
+    /* Set width to 80% */
+    height: 90%;
+    /* Set height to 80% */
+    border: 3px solid rgb(74, 83, 118);
+    background-color: #CFD1D8;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 10px rgba(210, 198, 198, 0.08);
+    position: relative;
+    display: flex;
+    /* Add display flex */
+    flex-direction: column;
+    /* Align children in column */
+    justify-content: center;
+    /* Center children vertically */
+    align-items: center;
+    /* Center children horizontally */
+}
+
+.main-home_map div::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #CFD1D8;
+    transform: translateX(-50%);
+}
+
+
+.main-home_map h1 {
+    color: rgba(255, 155, 41, 0.891);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.main-home_slots {
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(59, 90, 169, 0.75)), url('../layouts/SPark-pic.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Add this line to create a parallax effect */
+}
+
+
+.main-home_slots table {
+    border-collapse: collapse;
+}
+
+.main-home_slots table,
+.main-home_slots th,
+.main-home_slots td {
+    border: none;
+    font-size: 30px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Add this line to make the font bold */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.main-home_slots div {
+    text-align: center;
+}
+
+.about-us-section {
+    height: 100%;
+    /* Occupy the full height of the viewport */
+    margin: auto;
+    padding: auto;
+    padding-top: 130px;
+    background-image: radial-gradient(#000 1px, transparent 1px), radial-gradient(#000 1px, transparent 1px);
+    /* Two radial gradients to create black dots */
+    background-color: #fff;
+    /* White background */
+    background-size: 20px 20px;
+    /* Size of the dots */
+    background-position: 0 0, 10px 10px;
+    /* Position of the dots */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: justify;
+    /* Justify the text */
+    align-items: center;
+    /* Align the text vertically */
+    justify-items: center;
+    /* Align the text horizontally */
+    flex: 1;
+    /* Allow the content to grow and occupy available space */
+}
+
+/* Left content styles */
+.left-content {
+    width: 48%;
+    /* Adjust the width as needed */
+}
+
+/* Right content styles */
+.right-content {
+    width: 48%;
+    /* Adjust the width as needed */
+}
+
+section img {
+    max-width: 100%;
+    /* Ensure the image scales down proportionally */
+    height: auto;
+    /* Maintain the aspect ratio */
+}
+
+section h1,
+section h3 {
+    color: #2c3e50;
+}
+
+section h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 1.8em;
+    /* Corrected font size */
+    margin-bottom: 15px;
+    border-bottom: 1px solid #2c3e50;
+}
+
+.about-footer-container {
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    flex-direction: column;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    min-height: 350px;
+    margin: 3%;
+    transition: all .4s;
+    border: 3px solid rgb(74, 83, 118);
+    background-color: #CFD1D8;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 0px 10px rgba(210, 198, 198, 0.08);
+}
+
+.aboutus img {
+    width: 400px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.profiles-container {
+    display: flex;
+    justify-content: space-around;
+    /* Adjust alignment as needed */
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    /* White background for the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Hide overflow content (in case image is larger than container) */
+}
+
+.profile-picture img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+    margin-top: 10px;
+}

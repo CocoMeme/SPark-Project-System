@@ -79,7 +79,7 @@ public function confirmRent(Request $request)
 }
 
 
-    
+
     public function endRent(Request $request, $slotId)
     {
         // Find the slot rental record
@@ -100,7 +100,7 @@ public function confirmRent(Request $request)
         // Redirect back with a success message
         return redirect()->back()->with('success', 'Renting ended successfully.');
     }
-    
+
 
     public function confirmReserve(Request $request)
     {
@@ -206,7 +206,7 @@ public function confirmRent(Request $request)
         return redirect()->back()->with('success', 'Renting ended successfully.');
     }
 
-    // RESERVE 
+    // RESERVE
     public function showReserveAdminForm($slotId)
     {
         $slot = Slot::findOrFail($slotId);
@@ -223,13 +223,13 @@ public function confirmRent(Request $request)
             'start_time' => 'required|date',
             'end_time' => 'required|date|after:start_time',
         ]);
-    
+
         // Update the slot status
         $slot = Slot::findOrFail($request->slot_id);
         $slot->status = 'reserved';
         $slot->updated_at = now();
         $slot->save();
-    
+
         // Create a new Reservation record
         $reservation = new Reservation();
         $reservation->slot_id = $slot->id;
@@ -237,7 +237,7 @@ public function confirmRent(Request $request)
         $reservation->start_time = $request->start_time;
         $reservation->end_time = $request->end_time;
         $reservation->save();
-    
+
         // Redirect to the admin slots control page after successful reservation
         return redirect()->route('slots-control-admin')->with('success', 'Slot reserved successfully for regular user.');
     }
@@ -261,7 +261,11 @@ public function confirmRent(Request $request)
         // Redirect the user back with a success message
         return redirect()->route('slots-control-admin')->with('success', 'Slot created successfully.');
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 730e2369db155755aaf6bf55e4a6bd5b3a7488f4
     public function denySlotRequest($id)
     {
         // Find the slot by ID
@@ -290,6 +294,10 @@ public function confirmRent(Request $request)
         // Redirect back with a success message
         return redirect()->back()->with('success', 'Slot request denied successfully.');
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 730e2369db155755aaf6bf55e4a6bd5b3a7488f4
 
 
 }

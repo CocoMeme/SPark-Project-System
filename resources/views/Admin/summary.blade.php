@@ -67,6 +67,10 @@
                 <thead>
                     <tr>
                         <th>User ID</th>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 730e2369db155755aaf6bf55e4a6bd5b3a7488f4
                         <th>Name</th>
                         <th>Month</th>
                         <th>Status</th>
@@ -77,6 +81,10 @@
                     @foreach ($regularUsers as $user)
                         <tr>
                             <td>{{ $user->id }}</td>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 730e2369db155755aaf6bf55e4a6bd5b3a7488f4
                             <td>{{ $user->username }}</td>
                             <td>{{ $user->month }}</td>
                             <td>{{ $user->status }}</td>
