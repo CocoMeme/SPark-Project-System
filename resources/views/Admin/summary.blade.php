@@ -67,7 +67,6 @@
                 <thead>
                     <tr>
                         <th>User ID</th>
-                        <th>Slot Number</th>
                         <th>Name</th>
                         <th>Month</th>
                         <th>Status</th>
@@ -78,7 +77,6 @@
                     @foreach ($regularUsers as $user)
                         <tr>
                             <td>{{ $user->id }}</td>
-                            <td>{{ $user->slot_number }}</td>
                             <td>{{ $user->username }}</td>
                             <td>{{ $user->month }}</td>
                             <td>{{ $user->status }}</td>
@@ -86,7 +84,7 @@
                         </tr>
                     @endforeach
                     <tr>
-                        <td colspan="5" class="text-right"><strong>Grand Total:</strong></td>
+                        <td colspan="4" class="text-right"><strong>Grand Total:</strong></td>
                         <td>₱ {{ number_format($grandTotalRegular, 2) }}</td>
                     </tr>
                 </tbody>

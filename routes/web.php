@@ -62,7 +62,13 @@ use App\Http\Controllers\NotificationController;
         });
 
         // APPROVE
+        
             Route::put('/approve-rent/{slot}', [AdminController::class, 'approveRent'])->name('approve-rent');
+
+        // DENY
+
+            Route::put('/deny-slot-request/{id}', [SlotsController::class, 'denySlotRequest'])->name('denySlotRequest');
+
 
 
     // USERMANAGEMENT

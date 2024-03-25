@@ -73,7 +73,7 @@
                             @method('PUT')
                             <button type="submit" name="blue">Approve</button>
                         </form>
-                        <form action="{{ route('/', ['slot' => $slot->id]) }}" method="POST">
+                        <form action="{{ route('denySlotRequest', ['id' => $slot->id]) }}" method="POST">
                             @csrf
                             @method('PUT')
                             <button type="submit" name="cancel">Deny</button>
